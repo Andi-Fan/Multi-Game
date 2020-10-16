@@ -1,0 +1,57 @@
+Features: For each feature you implement, move to the Implemented section and
+explain who did it (utorid) and how you did it. You can consider these as 
+almost user stories, if you just add a bit to them. Add more features/user stories at the bottom.
+Move them up when completed.
+
+------------------------------------------------------------------------------------
+Implemented: 
+------------------------------------------------------------------------------------
+0) Login
+   Done by: arnold
+   Explanation: created schema, including appuser table, populated with 
+   default user. Also created handler for login state as well as login page.
+1) 15 Puzzle
+   Done by: jiang173
+   Explanation: Created the whole game MVC parts, linked the game to database, 
+   make it possible to store this game's user data into the database.
+2) Mastermind
+   Done by: jiang173, fanandi1
+   Explanation: Created the whole game MVC parts, linked the game to database, 
+   make it possible to store this game's user data into the database.
+3) Navigational Bar
+   Done by: jiang173
+   Explanation: Add navigational bar to all relative pages and implements 
+   the buttons on it. Also made the CSS for the navigational bar.
+4) Pictures
+   Done by: jiang173
+   Explanation: Made all the pictures for the games. No worry about the copy right.
+5) Registration
+   Done by: fanandi1
+   Explanation: created a view for the registration page, program sends user input
+   to the database for storage. Created handler for registration state in the controller,
+   and the necesarry code to send input to database.
+6) Profile
+   Done by: fanandi1
+    Explanation: created a view for the profile page, and a handler in the controller for
+    profile state. Added code in login state that pulls and stores user information from
+    the database. Added code in profile state that uses this information to autofill
+    relevant parts of the page. Also links profile page to database and updates the information
+    when the user submits.
+7) GuessGame:
+   Done by: fanandi1 (used Arnolds model code from guessgameMVC2)
+   Explanation: Created the view for the game, and setup a guessgame playstate in the controller.
+   Linked game to database. 
+8) PegSolitaire:
+   Done by: fanandi1 
+   Explanation: Created the PegSolitaire model, viewpage, and the playstate in controller for pegsolitaire.
+   Linked game to database.
+9) Gamestats:
+   Done by: fanandi1
+   Explanation: Created gamestats viewpage, and gamestats state in the controller. Wrote code linking the relevant
+   game to the gamestats table in our database. Also wrote code that pulls this information from the database and 
+   displays it for the user in gamestats view. 
+
+
+------------------------------------------------------------------------------------
+Unimplemented:
+------------------------------------------------------------------------------------
